@@ -5,28 +5,25 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #000000;
 }
 
 .first-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bold;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .first-p1 {
-    color: black;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    margin-top: 30px;
-    font-family: 'Arial', sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    letter-spacing: 1px;
-    line-height: 1.5;
+    margin-top: 20px;
+    color: #000000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .button-container {
@@ -87,7 +84,7 @@ body {
 
 .btn-hmm {
     background: linear-gradient(145deg, #2ecc71, #27ae60);
-    color: white;
+    color: #000000;
     box-shadow: 5px 5px 10px #1e8449,
                 -5px -5px 10px #2ecc71;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -105,7 +102,7 @@ body {
 
 .btn-yup {
     background: linear-gradient(145deg, #e6e6e6, #ffffff);
-    color: #2c3e50;
+    color: #000000;
     box-shadow: 5px 5px 10px #d1d1d1,
                 -5px -5px 10px #ffffff;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
